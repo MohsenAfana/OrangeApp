@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    tools:context=".Channels.ChannelListActivity">
+    <Button
+        android:id="@+id/menu_btn"
+        android:layout_width="40dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:text="@string/MENU"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:elevation="100dp"
+        android:background="@color/whiteGray"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/item_list" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TV_Program"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+            <View
+                android:layout_width="500dp"
+                android:layout_height="1dp"
+                android:background="@color/Gray"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NO_Program"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

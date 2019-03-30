@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">OrangeApp</string>
+    <string name="ADD_Account">ADD ACCOUNT</string>
+    <string name="_23456">23456</string>
+    <string name="TV">TV</string>
+    <string name="VideoClub">Video Club</string>
+    <string name="Settings">SETTINGS</string>
+    <string name="Menu">MENU</string>
+    <string name="noVideo">No Video </string>
+    <string name="play">PlayVideo</string>
+    <string name="Channels">CHANNELS</string>
+    <string name="Video">VIDEO</string>
+    <string name="simple_input_label">Simple Input Label</string>
+    <string name="my_player_activity">my_player_activity</string>
+    <string name="User">User</string>
+    <string name="Playback">Playback</string>
+    <string name="Reset_user_data">Reset user data</string>
+    <string name="Reset_user_data_detail">The app logs out of an account. Login data will be deleted.</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Feedback_details">Tell us about a mistake or share your  idea.</string>
+    <string name="Parent_password">Parent password</string>
+    <string name="parent_password_detail">First enter the old password, then a  new one. A secure password will help you to protect the content from minors access.</string>
+    <string name="Exit">Exit</string>
+    <string name="Exit_detail">App logs out of an account.Login data will be saved</string>
+    <string name="SeriesName1">قيامة أرطغرل</string>
+    <string name="Action">Action</string>
+    <string name="INFO">INFO</string>
+    <string name="rating">7.40</string>
+    <string name="year">Year:</string>
+    <string name="genre">Genre:</string>
+    <string name="_2018">2018</string>
+    <string name="genre_detail">Action,Adventure</string>
+    <string name="ChannelsName1">MBC 1</string>
+    <string name="family">family</string>
+    <string name="title_item_list">Channels</string>
+    <string name="title_item_detail">Channel Detail</string>
+    <string name="title_video_list">Video</string>
+    <string name="title_video_detail">Video Detail</string>
+    <string name="MENU">MENU</string>
+    <string name="search">Search channel</string>
+    <string name="favourite">Favorite</string>
+    <string name="Allcategories">All categories</string>
+    <string name="by_number_ascending">By number</string>
+    <string name="TV_Program">TV_Program</string>
+    <string name="NO_Program">No Program</string>
+    <string name="The_Good_Doctor">The Good Doctor</string>
+    <string name="SERIES">SERIES</string>
+
+
+    ////////////Categories String////////////
+    <string-array name="AllCategories">
+        <item>All categories</item>
+        <item>Foreign Movies | أفلام أجنبية </item>
+        <item>Foreign Series | مسلسلات أجنبية</item>
+        <item>Arabic Movies | أفلام عربية </item>
+        <item>Arabic Series | مسلسلات عربية </item>
+        <item>Turkish Movies | أفلام تركية </item>
+        <item>Turkish Series | مسلسلات تركية </item>
+        <item>Bollywood Movies | أفلام هندية </item>
+        <item>Asian Movies | أفلام أسيوية  </item>
+        <item>Asian Series | مسلسلات أسيوية  </item>
+        <item>Kids | أطفال</item>
+        <item>Islam | إسلاميات </item>
+        <item>برامج رمضانية </item>
+        <item>مسلسلات رمضانية </item>
+        <item>Documentary | وثائقي</item>
+        <item>TV Programs | برامج تلفزيونية</item>
+        <item>3D Movies | ثلاثي الأبعاد </item>
+        <item>Wrestling| مصارعة</item>
+    </string-array>
+    <string-array name="ChannelsName">
+        <item>MBC 1</item>
+        <item>MBC 2</item>
+        <item>MBC 3</item>
+        <item>MBC 4</item>
+        <item>Bein Sport1</item>
+        <item>Bein Sport1</item>
+        <item>Bein Sport3</item>
+        <item>Bein Sport4</item>
+        <item>Shawarma</item>
+        <item>Vada Pav</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_show_list">action show list</string>
+    <string name="text_size">25</string>
+    ////////////Categories String////////////
+
+</resources>

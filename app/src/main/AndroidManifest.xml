@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dev.orangeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tv"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".SlidingActivity"></activity>
+        <activity android:name=".TVCat" />
+        <activity android:name=".VideoCat" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            tools:ignore="ExtraText">
+            />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu2" />
+        <activity android:name=".Channels.ChannelClub" />
+        <activity android:name=".VideoClub.VideoClub" />
+        <activity android:name=".Settings" />
+        <activity android:name=".VideoClub.SeriesPlayer1" />
+        <activity android:name=".Channels.ChannelPlayer" />
+        <activity
+            android:name=".Channels.ChannelListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Channels.ChannelDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".Channels.ChannelListActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dev.orangeapp.Channels.ChannelListActivity" />
+        </activity>
+        <activity
+            android:name=".VideoClub.VideoListActivity"
+            android:label="@string/title_video_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VideoClub.VideoDetailActivity"
+            android:label="@string/title_video_detail"
+            android:parentActivityName=".VideoClub.VideoListActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dev.orangeapp.VideoClub.VideoListActivity" />
+        </activity>
+    </application>
+
+</manifest>

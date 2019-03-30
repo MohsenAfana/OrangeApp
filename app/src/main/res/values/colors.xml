@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#666666</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#D60000</color>
+    <color name="Gray">#666666</color>
+    <color name="whiteGray">#E5E5E5</color>
+    <color name="DarkGray">#404040</color>
+    <color name="White">#E5E5E5</color>
+    <color name="WhiteBlue">#45dde1</color>
+    <color name="Orange">#ff6700</color>
+    <color name="Blue">#018db0</color>
+    <color name="Purple">#6942ac</color>
+    <color name="DarkOrange">#c54d4d</color>
+    <color name="Black">#191919 </color>
+    <color name="buffered">#000</color>
+    <color name="played">#000</color>
+    <color name="scrubber">#000</color>
+    <color name="unplayed">#000</color>
+    <color name="channel_menu">#9ea0a5</color>
+    <color name="Green">#003300</color>
+</resources>
